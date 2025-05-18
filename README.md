@@ -1,4 +1,4 @@
-# The General Contract Agreement for Copyrightable Works (Draft)
+# The Artist Service Agreement for Copyrightable Works (Draft)
 I made a little draft. Really nothing special.
 
 # License
