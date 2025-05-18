@@ -1,4 +1,4 @@
-# License-GCACW
+# The General Contract Agreement for Copyrightable Works
 I made an little CA. Really nothing special.
 
 # License
