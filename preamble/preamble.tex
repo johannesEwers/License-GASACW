@@ -1,0 +1,48 @@
+\usepackage{scrhack}
+%\usepackage[top=2.54cm,bottom=2.54cm,left=2.54cm,right=2.54cm]{geometry}
+\usepackage[top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{anyfontsize}
+\usepackage{newtxtext}
+\usepackage{setspace} \onehalfspacing
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0cm}
+\usepackage{scrlayer-scrpage}
+\clearpairofpagestyles
+\cfoot{\pagemark}
+\setkomafont{pageheadfoot}{\normalfont\normalcolor}
+\setkomafont{pagenumber}{\normalfont\normalcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{selinput}
+\SelectInputMappings{%
+	adieresis={ä},%
+    odieresis={ö},%
+    udieresis={ü},%
+	germandbls={ß},%
+	Euro={€}%
+}
+\usepackage[english]{datetime2}
+\RedeclareSectionCommand[toclinefill=\dotfill]{section}
+\setkomafont{section}{\normalfont\fontsize{14}{17}\bfseries}
+\setkomafont{subsection}{\normalfont\fontsize{13}{16}\bfseries}
+\setkomafont{subsubsection}{\normalfont\fontsize{12}{15}\bfseries}
+\setkomafont{paragraph}{\normalfont\fontsize{11}{14}\bfseries}
+\setkomafont{subparagraph}{\normalfont\fontsize{10}{13}\bfseries}
+\renewcommand*{\sectionformat}{§~\thesection\autodot\enskip}
+\renewcommand*{\subsectionformat}{§~\thesubsection\autodot\enskip}
+\renewcommand*{\subsubsectionformat}{§~\thesubsubsection\autodot\enskip}
+\renewcommand*{\paragraphformat}{§~\theparagraph\autodot\enskip}
+\renewcommand*{\subparagraphformat}{§~\thesubparagraph\autodot\enskip}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, nolistsep}\setlist[enumerate]{noitemsep, nolistsep}
+\usepackage{longtable}
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{pifont}

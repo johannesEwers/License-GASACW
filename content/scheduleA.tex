@@ -1,0 +1,60 @@
+\newpage 
+\section*{Schedule A - Work Description and Pricing}
+
+
+\subsection*{Work Description}
+\begin{longtable}[l]{ p{9cm} p{9cm} }
+    \textbf{Title / File Name:} \docworkname    & \textbf{Work:} \docworktype \\
+    \textbf{Medium:} \docworkmedium             & \textbf{Trait} \docworktrait \\
+    \textbf{ID:} \docworkid                     & \textbf{Rental End:} \docworkrentaldate\\
+    \textbf{Unique:} \docworkuniqueness         & \\
+\end{longtable} 
+
+
+\subsection*{Billing Information}
+\begin{longtable}[l]{ p{8cm} p{5cm} p{5cm} }
+    {\tiny \underline{\doclicensor, \doclicensoradress}} & Delivery by:          & \\
+    \doclicensee                                            & \textbf{\doclicensor} & \\
+    \doclicenseeadressstreet                                & \doclicensoradress    & \\
+    \doclicenseeadresscity                                  & \docphonenumber       & \\
+    \doclicenseeadresscountry                               & \docemail             & \\
+                                                            & \docwebsite           & \\
+    \doclicenseeemail                                       & VAT / Tax ID:         & \docSalestaxnumber \\
+    \doclicenseephone                                       & Office hours:         & \docofficehours \\
+                                                            && \\
+                                                            & Order date            & \today \\
+                                                            & Invoice Number        & \docworkinvoicenumber \\
+                                                            & Delivery date         & \docworkdeliverydate \\
+                                                            && \\
+                                                            & IBAN:                 & \dociban \\
+                                                            & BIC:                  & \docbic \\
+\end{longtable}
+\medskip 
+
+\hfill\textbf{\today}
+\medskip 
+
+\textbf{\underline{Invoice and Order Confirmation}} \newline 
+Thank you for your order and support.
+\bigskip 
+
+{\footnotesize
+\begin{longtable}[l]{| L{1cm} | L{2.5cm} | L{4cm} | R{1.5cm} | R{2cm} | R{2cm} | R{2cm} |}
+    \hline 
+    Item\newline    & Article Number\newline    & Description\newline   & Quantity\newline      & Unit Price\newline EUR    & VAT\newline (EUR) \docworkValueaddedtax    & Total price\newline EUR \\
+    \hline 
+%    99              & 12345678                  & Your wicked artwork   & 99                  & 1 000 000,00              & 100 000,00                                 & 1 000 000,00 \\
+    \docworkentry
+    \hline 
+    \textbf{Total:} &                           &                       & \docworktotalquantity & \docworktotalunitprice    & \docworktotalvat                           & \docworkinvoiceamount \\
+    \hline 
+\end{longtable}
+}
+%\hfill\textbf{Invoice amount:}\quad\quad 1 000 000,00 EUR
+\hfill\textbf{Invoice amount:\quad\quad \docworkinvoiceamount{} EUR}
+\bigskip 
+
+Payment shall be made in full within fourteen (\( 14 \)) days of the invoice 
+date to the Artist's bank account.
+Title to the Articles shall remain vested in the Artist until such payment has 
+been received in full.
