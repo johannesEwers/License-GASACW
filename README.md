@@ -1,5 +1,5 @@
 # The General Contract Agreement for Copyrightable Works (Draft)
-I made an little draft. Really nothing special.
+I made a little draft. Really nothing special.
 
 # License
 This repository is licensed under CC BY-SA.
